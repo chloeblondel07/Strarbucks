@@ -21,10 +21,17 @@ object-fit: cover;}
 	justify-content: space-around;
 }
 
-.1img-size {
-	width: 70%;
-	height: 30px;
+.img-size {
+	width: 50%;
+	height: 30%;
 	object-fit: cover;
+	display: flex;
+	justify-content: center;
+	}
+
+.image{
+	justify-content: center;
+	align-items: center;
 }
 
 .other-size {
@@ -35,6 +42,7 @@ object-fit: cover;}
 
 .elements-center{
 	text-align: center;
+	justify-content: center;
 }
 
 .elementsontheleft {
@@ -43,6 +51,11 @@ object-fit: cover;}
 
 .elements-middle {
 	text-align: center;
+}
+
+.elements-aligned {
+	justify-content: center;
+	display: flex;
 }
 
 div {
